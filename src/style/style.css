@@ -1,0 +1,66 @@
+.searchable-multiselect {
+    position: relative;
+}
+
+.searchable-multiselect a {
+    width: 100%;
+    padding: 5px 7px;
+    overflow: hidden;
+}
+
+.searchable-multiselect a span {
+    display: block;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.searchable-multiselect a .caret {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+}
+
+ul.dropdown-menu-form {
+    padding: 5px 10px 0;
+    overflow-y: auto;
+    height: auto;
+    max-height: 300px;
+}
+
+span.limit-ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+searchable-multiselect input[type="text"] {
+    width: 100%;
+}
+
+searchable-multiselect ul.dropdown-menu {
+    background: #fff;
+}
+
+searchable-multiselect label {
+    padding: 0;
+    margin: 0
+}
+.li-item {
+    padding: 0;
+    margin: 0 -6px 3px -6px;
+    display: flex;
+    place-content: space-between;
+}
+
+label[name="item-display-value"] {
+    margin: 3px 3px;
+    padding-left: 2px;
+    font-size: 9pt;
+    font-family: 'Helvetica',sans-serif;
+}
+
+i[name="item-remove-button"] {
+    align-self: center;
+}
+.deselect-all {
+    margin-bottom: 3px;
+}
